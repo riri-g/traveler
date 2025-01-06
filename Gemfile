@@ -67,3 +67,21 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"
+
+gem 'ffi', '~> 1.15.0'
+
+gem 'devise'
+
+gem 'bootstrap', '~> 5.3.0'
+gem 'jquery-rails'
+
+gem "sassc-rails"
+
+gem 'kaminari'
+
+gem 'enum_help'
+
+gem 'devise-i18n'
